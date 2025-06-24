@@ -68,29 +68,12 @@ lib/
 
 ## 📱 Screens
 
-Figma link: [Design](https://www.figma.com/proto/PlffAnOjE7vVvrvc7yC8HC/Balanced-Meal?node-id=0-1&t=2sH3WVa7motQX5QB-1)
-
-1. **Home Screen**
-   <img src="docs/views/Home.png" alt="Home Screen" width="300" />
-   - Welcome message
-   - Start ordering button
-
-2. **User Info**
-   ![User Info](docs/views/User_Info.png "Balanced Meal App User Info")
-   - Collect user details
-   - Dietary preferences
-
-3. **Create Order**
-   ![Create Order](docs/views/Place_Order.png "Balanced Meal App Create Order")
-   - Tabbed interface for different ingredient categories
-   - Add/remove items
-   - Real-time calorie and price calculation
-
-4. **Order Summary**
-   ![Order Summary](docs/views/Confirm_Order%20.png "Balanced Meal App Order Summary")
-   - Review selected items
-   - Total calories and price
-   - Confirm order button
+| Description | Screenshot |
+|-------------|------------|
+| **Home Screen**<br>- Welcome message<br>- Start ordering button | <img src="docs/views/Home.png" alt="Home Screen" width="200" /> |
+| **User Info**<br>- Collect user details<br>- Dietary preferences | <img src="docs/views/User_Info.png" alt="Home Screen" width="200" /> |
+| **Create Order**<br>- Tabbed interface for different ingredient categories <br> - Add/remove items <br>- Real-time calorie and price calculation | <img src="docs/views/Place_Order.png" alt="Home Screen" width="200" /> |
+| **Order Summary**<br> - Review selected itemss<br>- Total calories and price<br>- Confirm order button | <img src="docs/views/Confirm_Order%20.png" alt="Home Screen" width="200" /> |
 
 ## 📱 Main Scenario
 
