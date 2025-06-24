@@ -1,6 +1,6 @@
 # Balanced Meal App
 
-A Flutter-based mobile application that helps users create nutritionally balanced meals by selecting from a variety of ingredients across different food categories.
+A Flutter-based mobile application that helps users create nutritionally balanced meals by selecting from a variety of ingredients across different food categories for SprintUp - Mobile Development By Flutter Course [Course Link](https://sprints.ai/en-eg/journeys/SprintUpMobileDevelopmentByFlutter) Project (Flutter Shopping App Project).
 
 ## 🍽️ Features
 
@@ -68,6 +68,8 @@ lib/
 ```
 
 ## 📱 Screens
+
+Figma link: [Design](https://www.figma.com/proto/PlffAnOjE7vVvrvc7yC8HC/Balanced-Meal?node-id=0-1&t=2sH3WVa7motQX5QB-1)
 
 | Description | Screenshot |
 |-------------|------------|
@@ -152,7 +154,3 @@ https://uz8if7.buildship.run/placeOrder
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
