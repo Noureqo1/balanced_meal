@@ -9,7 +9,7 @@ A Flutter-based mobile application that helps users create nutritionally balance
   - 🥩 Meats (Chicken, Beef, etc.)
   - 🥦 Vegetables (Broccoli, Carrots, etc.)
   - 🍚 Carbs (Rice, Pasta, etc.)
-  - [Ingredient Selection](docs/views/Catograries.png)
+    ![Ingredient Selection](docs/views/Catograries.png)
 - **Nutritional Tracking**: Real-time calorie calculation
 - **Order Management**: Add/remove ingredients and adjust quantities
 - **Responsive Design**: Works on different screen sizes
