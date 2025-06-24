@@ -68,23 +68,31 @@ lib/
 
 ## 📱 Screens
 
+Figma link: [Design](https://www.figma.com/proto/PlffAnOjE7vVvrvc7yC8HC/Balanced-Meal?node-id=0-1&t=2sH3WVa7motQX5QB-1)
+
 1. **Home Screen**
+   ![Home Screen](docs/views/Home.png "Balanced Meal App Home Screen")
    - Welcome message
    - Start ordering button
 
-2. **Create Order**
+2. **User Info**
+   ![User Info](docs/views/User_Info.png "Balanced Meal App User Info")
+   - Collect user details
+   - Dietary preferences
+
+3. **Create Order**
+   ![Create Order](docs/views/Place_Order.png "Balanced Meal App Create Order")
    - Tabbed interface for different ingredient categories
    - Add/remove items
    - Real-time calorie and price calculation
 
-3. **Order Summary**
+4. **Order Summary**
+   ![Order Summary](docs/views/Confirm_Order%20.png "Balanced Meal App Order Summary")
    - Review selected items
    - Total calories and price
    - Confirm order button
 
-4. **User Info**
-   - Collect user details
-   - Dietary preferences
+## 📱 Main Scenario
 
 ## 📊 Calorie Calculation
 
