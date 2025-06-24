@@ -71,7 +71,7 @@ lib/
 Figma link: [Design](https://www.figma.com/proto/PlffAnOjE7vVvrvc7yC8HC/Balanced-Meal?node-id=0-1&t=2sH3WVa7motQX5QB-1)
 
 1. **Home Screen**
-   ![Home Screen](docs/views/Home.png "Balanced Meal App Home Screen")
+   <img src="docs/views/Home.png" alt="Home Screen" width="300" />
    - Welcome message
    - Start ordering button
 
