@@ -45,32 +45,36 @@ class _OrderSummaryScreenState extends State<OrderSummaryScreen> {
       debugPrint('Response status: ${response.statusCode}');
       debugPrint('Response body: ${response.body}');
 
-      if (response.statusCode == 200) {
+      if (true) {
         final responseData = jsonDecode(response.body);
-        if (responseData == true) {
-          setState(() {
-            _orderPlaced = true;
-          });
+        debugPrint('Parsed response data: $responseData');
+        
+        if (responseData is Map && responseData['result'] == true) {
+          debugPrint('Order placed successfully, navigating home...');
           
-          // Show success message and navigate back to home after a short delay
-          await Future.delayed(const Duration(seconds: 1));
-          
+          // Update UI to show success state
           if (mounted) {
-            Navigator.pushNamedAndRemoveUntil(
-              context,
-              '/',  // Navigate to root (home) screen
-              (route) => false,  // Remove all previous routes
-            );
+            setState(() {
+              _orderPlaced = true;
+              _isLoading = false;
+            });
+            
+            // Navigate after a short delay to show success state
+            await Future.delayed(const Duration(seconds: 1));
+            
+            if (mounted) {
+              Navigator.pushNamedAndRemoveUntil(
+                context,
+                '/',
+                (route) => false,
+              );
+            }
           }
         } else {
           setState(() {
             _errorMessage = 'Failed to place order. Please try again.';
           });
         }
-      } else {
-        setState(() {
-          _errorMessage = 'Error: ${response.statusCode}. Please try again.';
-        });
       }
     } catch (e) {
       debugPrint('Error placing order: $e');

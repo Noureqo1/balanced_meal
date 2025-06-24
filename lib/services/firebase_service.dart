@@ -140,20 +140,6 @@ class FirebaseService {
         'price': 2.49,
         'imageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwxSM9Ib-aDXTUIATZlRPQ6qABkkJ0sJwDmA&usqp=CAU',
       },
-      {
-        'name': 'Quinoa',
-        'category': 'carbs',
-        'calories': 120.0,
-        'price': 12.0,
-        'imageUrl': 'https://example.com/quinoa.jpg',
-      },
-      {
-        'name': 'Sweet Potato',
-        'category': 'carbs',
-        'calories': 86.0,
-        'price': 6.0,
-        'imageUrl': 'https://example.com/sweet_potato.jpg',
-      },
     ];
     
     // Add all sample ingredients to Firestore
